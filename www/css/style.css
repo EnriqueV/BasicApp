@@ -1,0 +1,35 @@
+/* basic styles */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+.slider{
+height:100%;
+text-align: center;
+
+}
+
+.scroll{
+height:100%
+
+
+}
+
+.imgdiv{
+padding: 2%;	
+top:10%;
+padding-top: 30%;
+padding-bottom: 20%;
+
+
+}
+.start{
+    font-size: 25px;
+}
+.error{
+    padding-left: 35%;
+    padding-top: 50%;
+}
+.ion-android-sad{
+    font-size: 32px;
+}
+.sid{
+    font-size: 32px;
+}

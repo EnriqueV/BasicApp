@@ -1,0 +1,18 @@
+<ion-view view-title="Account">
+  <ion-content>
+    <div ng-controller="Social">
+      <div ng-hide="user" class="error">
+       
+        <h4 class="">Data not found</h4>
+           <i class="icon ion-android-sad"></i>
+      </div>
+      <div ng-repeat="data in user">
+        <img ng-src="{{data.pic || 'https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg'}}" alt="" class="avatar">
+        <h2>Welcome to join us!</h2>
+        <h3>{{data.name}}</h3>
+         <h4>{{data.mail}}</h4>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
